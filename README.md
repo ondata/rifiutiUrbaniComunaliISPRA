@@ -11,7 +11,7 @@ In questo repo uno script per scaricarli, pulirli, ristrutturarli e convertirli 
 - scrape, per estrarre gli URL degli ODS via XPATH https://github.com/aborruso/scrape-cli/releases
 - pyexcel, per convertire fogli elettronici in CSV https://github.com/pyexcel/pyexcel
 - pyexcel-ods, estende pyexcel per abilitare la conversione di file `ods` https://github.com/pyexcel/pyexcel-ods
-- Miller, nelle sua versione compilare come indicato qui, in modo da avere una funzione non disponibile ancora nella versione in produzione http://johnkerl.org/miller/doc/build.html#From_git_clone_using_autoconfig
+- Miller, nella sua versione da compilare come indicato [qui](http://johnkerl.org/miller/doc/build.html#From_git_clone_using_autoconfig), in modo da avere una comoda funzione non disponibile ancora nella versione in produzione.
 
 Si occupa di:
 
