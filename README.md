@@ -2,7 +2,7 @@
 
 ISPRA pubblica in questa pagina [https://www.catasto-rifiuti.isprambiente.it/index.php?pg=downloadComune](https://www.catasto-rifiuti.isprambiente.it/index.php?pg=downloadComune) i **dati comunali** di **produzione** e **raccolta differenziata** sui **Rifiuti Urbani**, in file con **raccolte annuali** (ad oggi) dal 2010 al 2017. Sono pubblicati in formato `ods` (foglio di calcolo in formato _open document_).
 
-In questo repo uno script per scaricarli, pulirli, ristrutturarli e convertirli in un [**unico CSV**](./ispraRifiuti.csv) e per l'appunto il file di insieme.
+In questo repo uno script per scaricarli, pulirli, ristrutturarli e convertirli in un [**unico CSV**](https://github.com/ondata/rifiutiUrbaniComunaliISPRA/raw/master/ispraRifiuti.csv) e per l'appunto il file di insieme.
 
 ## Lo script
 
