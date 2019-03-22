@@ -18,7 +18,7 @@ Si occupa di:
 - fare il download dei file `ods`;
 - convertirli in `csv`;
 - rimuove un'inutile riga di intestazione;
-- rimuove spazi bianchi in più (come `Piemonte     `) e righe vuote;
+- rimuove spazi bianchi in più (come `Piemonte • • •`) e righe vuote;
 - gestisce il cambio di ordine e numero di campi che avviene al passaggio dall'anno 2015 al 2016;
 - aggiunge il campo con l'anno;
 - fa il merge in unico file `csv` di output.
