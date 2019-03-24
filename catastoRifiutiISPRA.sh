@@ -9,6 +9,9 @@ set -x
 - versione head di Miller, da compilare come indicato qui http://johnkerl.org/miller/doc/build.html#From_git_clone_using_autoconfig
 requisiti
 
+<<commento
+commento
+
 # rimuovi file eventualmente scaricati e convertiti
 rm ./*.ods
 rm ./*.csv
@@ -34,10 +37,12 @@ done
 sed -i -e '1,1d' ./*.csv
 
 # rimuovi spazi bianchi inutili e righe vuote
-mlr -I --csv clean-whitespace then skip-trivial-records then put '$anno=FILENAME' ./*.csv
+mlr -I --csv clean-whitespace then skip-trivial-records ./*.csv
+
+rm ./ispraRifiuti.csv
 
 # fai il merge dei CSV. Si usa unsparsify perché nel 2016 cambiano ordine e numero campi
 mlr --csv unsparsify --fill-with ""  ./*.csv >./ispraRifiuti.csv
 
-# metti campo anno all'inizio e estrai anno
-mlr -I --csv reorder -f anno then put '$anno=regextract_or_else($anno, "[0-9]+", "")' ./ispraRifiuti.csv
+# metti campo anno all'inizio
+mlr -I --csv reorder -f ANNO ./ispraRifiuti.csv
