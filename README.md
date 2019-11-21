@@ -4,6 +4,11 @@ ISPRA pubblica in questa pagina [https://www.catasto-rifiuti.isprambiente.it/ind
 
 In questo repo uno script per scaricarli, pulirli, ristrutturarli e convertirli in un [**unico CSV**](https://github.com/ondata/rifiutiUrbaniComunaliISPRA/raw/master/ispraRifiuti.csv) e per l'appunto il file di insieme.
 
+**NOTA BENE**:
+
+- il campo `PERCRD` esprime le percentuali in valori divisi per 100, quindi `0.67` equivale al `67%`;
+- sul sito sorgente, i dati sono stati pubblicati in CSV e non più in in formato _open document_.
+
 ## Lo script
 
 È [scritto](./catastoRifiutiISPRA.sh) in bash e sfrutta queste utility:
