@@ -7,7 +7,7 @@ In questo repo uno script per scaricarli, pulirli, ristrutturarli e convertirli 
 **NOTA BENE**:
 
 - il campo `PERCRD` esprime le percentuali in valori divisi per 100, quindi `0.67` equivale al `67%`;
-- sul sito sorgente, i dati sono stati pubblicati in CSV e non più in in formato _open document_.
+- sul sito sorgente, i dati sono stati pubblicati in CSV e non più in in formato _open document_. **Quindi lo script non è più utilizabile**.
 
 ## Lo script
 
@@ -22,8 +22,8 @@ Si occupa di:
 
 - fare il download dei file `ods`;
 - convertirli in `csv`;
-- rimuove un'inutile riga di intestazione;
-- rimuove spazi bianchi in più (come `Piemonte • • •`) e righe vuote;
-- gestisce il cambio di ordine e numero di campi che avviene al passaggio dall'anno 2015 al 2016;
-- aggiunge il campo con l'anno;
-- fa il merge in unico file `csv` di output.
+- rimuovere un'inutile riga di intestazione;
+- rimuovere spazi bianchi in più (come `Piemonte • • •`) e righe vuote;
+- gestire il cambio di ordine e numero di campi che avviene al passaggio dall'anno 2015 al 2016;
+- aggiungere il campo con l'anno;
+- fare il merge in unico file `csv` di output.
