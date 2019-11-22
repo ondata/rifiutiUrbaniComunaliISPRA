@@ -6,7 +6,7 @@ In questo repo uno script per scaricarli, pulirli, ristrutturarli e convertirli 
 
 **NOTA BENE**:
 
-- il campo `PERCRD` esprime le percentuali in valori divisi per 100, quindi `0.67` equivale al `67%`;
+- il campo `PERCRD` del [file CSV]((https://github.com/ondata/rifiutiUrbaniComunaliISPRA/raw/master/ispraRifiuti.csv)) di output esprime le percentuali in valori divisi per 100, quindi `0.67` equivale al `67%`;
 - sul sito sorgente, i dati sono stati pubblicati in CSV e non più in in formato _open document_. **Quindi lo script non è più utilizabile**.
 
 ## Lo script
